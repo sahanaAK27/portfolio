@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f52d33c5a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>S</span>ahana.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm    <span> Sahana AK </span><br> From Haveri</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------------------------------------------about-------------------------------------------------------------------------------------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+<img src="sanu.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Hello! I'm Sahana A K ,a frontend developer with a passion for builiding innovative web application.I've honed my skills in creating responsive,user-friendly interfaces that bring designs to life.When I'm not coding,you can find me Reading Books and Watching Netflix series and Other creative activities.I'm excited to share my work with you and explore opportunities to collaborate on exciting projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Technical skills')"> Technical Skills</p>
+                        <p class="tab-links" onclick="opentab('Soft skills')">Soft Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                
+                    </div>
+                    <div class="tab-contents active-tab" id=" Technical skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>HTML,CSS,Javascript</li>
+                            <li><span>Frameworks/Libraries</span><br>React</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Soft skills">
+                        <ul>
+                            <li><span>Soft skills</span><br>Communication ,Problem sloving,Leadership</li>
+                            <li><span>project Management skills</span><br>Project planning,Task management,Team work</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Application</span><br>SMR-SISM College,Davangere University</li>
+                            <li><span>PUC</span><br> DRM Science PU college ,Davangere</li>
+                            <li><span>High School</span><br>Girl's Highschool,Adur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------------------------service------------------------------------------------------------------------------------------------------------------------------->
+          <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="serivices-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>We provide a  visual appealing and user-friendly Web designing Services, 
+                            including: 
+                             Website layout and structure,
+                            Custom graphics and icons,
+                            Responsive design and user-friendly.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Expertise in building fast, secure, and scalable web applications, including:
+                            Custom web application development,
+                            Responsive design and mobile-friendly development,
+                            API integration and development,
+                            Website optimization and performance improvement.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-camera"></i>
+                        <h2>Photography</h2>
+                        <p>Capturing life's moments through portrait, landscape, wedding, and event photography.</p>
+                        <a href="#">Learn more</a>
+
+
+                    </div>
+                </div>
+            </div>
+          </div>
+
+<!-----------------------------------------------------------------------portfilo------------------------------------------------------------------------------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Connect Websites</h3>
+                    <p>SocialBook is a social  media platform platform I designed,inspired by facebook.This projects aimed to create a user friendly interfaces for connecting with friends,sharing updates,and joining communities.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                <h3>Some Other Websites</h3>
+            <p>I designed many websites using HTML,CSS and Javascript to showcase my slills and experience.These websites features are responsive design,scrolling animation,and contact form.I implemented a clean and minimalistic design to ensure easy navigation and a seamless user experiences.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                <h3>Amazon Clone</h3>
+                <p>I designed an e-commarce website clone of Amazon,utilizing HTML,CSS,Javascript.The websites features a responsive design,user interface and product listing with filtering and sorting shopping cart and checkout functionality.This demonstrated my ability to create complex,scalable,and user friendly e commerce web application.h </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------------------------------------------------------------------------------contact-------------------------------------------------------------------------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sahanasahanaak6@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8217375299</p>
+            <div class="social-icons">
+              <a href=" "><i class="fa-brands fa-instagram"></i></a>  
+            <a href="https://www.linkedin.com/in/sahana-ak-885553333 "><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="Sahana A K. (1).pdf" download="" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+       </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>Designed By Sahana.<i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+        
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+         
+            var sidemenu = document.getElementById("sidemenu");
+   
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZedO7P88aIngrNPoeo15Qn5zkRXLTNIIrfvOmySZtKjO1tyzTILd1dr6OgpipIXOD/exec'
+    const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML = "Message sent successfully"
+                 setTimeout(function(){
+                    msg.innerHTML = ""
+                 },5000)
+                 form.reset()
+            })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
